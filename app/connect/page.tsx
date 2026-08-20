@@ -98,7 +98,7 @@ const CONNECT_LINKS = [
   {
     label: "Apply to be a Volunteer",
     hint: "Join our core execution team & domain leads for session 2026–27",
-    href: "https://forms.gle/CY8eDostKx2t8Wx49",
+    href: "https://recruitment.d4community.com",
     color: "#FF6B6B",
     bgHighlight: "bg-[#FF6B6B] text-white",
     shadow: "shadow-[5px_5px_0px_0px_#FF6B6B]",
