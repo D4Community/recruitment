@@ -683,7 +683,7 @@ export default function Home() {
         {/* VALUES SECTION */}
         <section id="values" className="py-20 border-t-2 border-slate-800">
           <div className="text-center">
-            <span className="rounded-lg border-2 border-[#090D16] bg-[#00B4DB] px-3.5 py-1 text-xs font-black uppercase text-[#090D16] shadow-[3px_3px_0px_0px_#FFFFFF]">
+            <span className="rounded-lg border-2 border-[#181818] dark:border-[#090D16] bg-[#00B4DB] px-3.5 py-1 text-xs font-black uppercase text-[#090D16] shadow-[3px_3px_0px_0px_#181818] dark:shadow-[3px_3px_0px_0px_#FFFFFF]">
               What We Look For
             </span>
             <h2 className="mt-4 font-sans text-3xl font-black text-[#090D16] dark:text-white sm:text-5xl">
@@ -726,7 +726,7 @@ export default function Home() {
         {/* WORKFLOW PIPELINE SECTION */}
         <section className="py-20 border-t-2 border-slate-800">
           <div className="text-center">
-            <span className="rounded-lg border-2 border-[#090D16] bg-[#FF6B6B] px-3.5 py-1 text-xs font-black uppercase text-white shadow-[3px_3px_0px_0px_#FFFFFF]">
+            <span className="rounded-lg border-2 border-[#181818] dark:border-[#090D16] bg-[#FF6B6B] px-3.5 py-1 text-xs font-black uppercase text-white shadow-[3px_3px_0px_0px_#181818] dark:shadow-[3px_3px_0px_0px_#FFFFFF]">
               Lifecycle
             </span>
             <h2 className="mt-4 font-sans text-3xl font-black text-[#090D16] dark:text-white sm:text-5xl">
@@ -772,7 +772,7 @@ export default function Home() {
         {/* COMMUNITY ACTIVITIES SECTION */}
         <section className="py-20 border-t-2 border-slate-800">
           <div className="text-center">
-            <span className="rounded-lg border-2 border-[#090D16] bg-[#00B4DB] px-3.5 py-1 text-xs font-black uppercase text-[#090D16] shadow-[3px_3px_0px_0px_#FFFFFF]">
+            <span className="rounded-lg border-2 border-[#181818] dark:border-[#090D16] bg-[#00B4DB] px-3.5 py-1 text-xs font-black uppercase text-[#090D16] shadow-[3px_3px_0px_0px_#181818] dark:shadow-[3px_3px_0px_0px_#FFFFFF]">
               Community Culture
             </span>
             <h2 className="mt-4 font-sans text-3xl font-black text-[#090D16] dark:text-white sm:text-5xl">
@@ -817,7 +817,7 @@ export default function Home() {
         {/* DOMAINS SECTION */}
         <section className="py-20 border-t-2 border-slate-800">
           <div className="text-center">
-            <span className="rounded-lg border-2 border-[#090D16] bg-[#6C5CE7] px-3.5 py-1 text-xs font-black uppercase text-white shadow-[3px_3px_0px_0px_#FFFFFF]">
+            <span className="rounded-lg border-2 border-[#181818] dark:border-[#090D16] bg-[#6C5CE7] px-3.5 py-1 text-xs font-black uppercase text-white shadow-[3px_3px_0px_0px_#181818] dark:shadow-[3px_3px_0px_0px_#FFFFFF]">
               Find Your Fit
             </span>
             <h2 className="mt-4 font-sans text-3xl font-black text-[#090D16] dark:text-white sm:text-5xl">
@@ -836,7 +836,7 @@ export default function Home() {
         {/* FAQ ACCORDION SECTION */}
         <section className="py-20 border-t-2 border-slate-800">
           <div className="mx-auto max-w-3xl text-center">
-            <span className="rounded-lg border-2 border-[#090D16] bg-[#06D6A0] px-3.5 py-1 text-xs font-black uppercase text-[#090D16] shadow-[3px_3px_0px_0px_#FFFFFF]">
+            <span className="rounded-lg border-2 border-[#181818] dark:border-[#090D16] bg-[#06D6A0] px-3.5 py-1 text-xs font-black uppercase text-[#090D16] shadow-[3px_3px_0px_0px_#181818] dark:shadow-[3px_3px_0px_0px_#FFFFFF]">
               Questions?
             </span>
             <h2 className="mt-4 font-sans text-4xl font-black tracking-tight text-[#090D16] dark:text-white sm:text-5xl">
@@ -854,7 +854,7 @@ export default function Home() {
               return (
                 <div
                   key={faq.id}
-                  className="rounded-2xl border-2 border-[#090D16] bg-slate-900 p-6 shadow-[5px_5px_0px_0px_#FFFFFF]"
+                  className="rounded-2xl border-2 border-[#FF6B6B] bg-slate-900 p-6 shadow-[5px_5px_0px_0px_#FF6B6B]"
                 >
                   <button
                     onClick={() => setOpenFaq(isOpen ? null : faq.id)}

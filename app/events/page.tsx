@@ -43,10 +43,8 @@ export default function EventsPage() {
   return (
     <div className="font-sans relative min-h-screen bg-white text-[#090D16] antialiased transition-colors duration-200 selection:bg-[#06D6A0] selection:text-[#090D16] dark:bg-black dark:text-slate-100">
       <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        
         {/* HERO SECTION */}
         <section className="relative pt-16 pb-20 text-center sm:pt-24 sm:pb-28">
-          
           {/* BADGES ROW */}
           <div className="flex flex-wrap items-center justify-center gap-3">
             <span className="inline-flex items-center gap-2 rounded-full border-2 border-white/20 bg-[#121826] px-4 py-1.5 font-mono text-xs font-black uppercase text-slate-200 shadow-[3px_3px_0px_0px_#FF6B6B]">
@@ -79,21 +77,25 @@ export default function EventsPage() {
           </h1>
 
           <p className="mx-auto mt-8 max-w-2xl text-base font-bold leading-relaxed text-slate-600 dark:text-slate-300 sm:text-xl">
-            A sample of our past sessions, technical workshops, open-source sprints, and developer meetups organized across campuses.
+            A sample of our past sessions, technical workshops, open-source
+            sprints, and developer meetups organized across campuses.
           </p>
         </section>
 
         {/* EVENTS GRID */}
         <section className="py-12 border-t-2 border-slate-800">
           <div className="text-center">
-            <span className="rounded-lg border-2 border-[#090D16] bg-[#00B4DB] px-3.5 py-1 text-xs font-black uppercase text-[#090D16] shadow-[3px_3px_0px_0px_#FFFFFF]">
+            <span className="rounded-lg border-2 border-[#181818] dark:border-[#090D16] bg-[#00B4DB] px-3.5 py-1 text-xs font-black uppercase text-[#090D16] shadow-[3px_3px_0px_0px_#181818] dark:shadow-[3px_3px_0px_0px_#FFFFFF]">
               Community Highlights
             </span>
+
             <h2 className="mt-4 font-sans text-3xl font-black text-[#090D16] dark:text-white sm:text-5xl">
-              Past Sessions & Meetups
+              Past Sessions &amp; Meetups
             </h2>
-            <p className="mt-3 text-sm font-bold text-slate-400 max-w-xl mx-auto">
-              Explore past events engineered by D4 Community members and domain leads.
+
+            <p className="mt-3 mx-auto max-w-xl text-sm font-bold text-slate-400">
+              Explore past events engineered by D4 Community members and domain
+              leads.
             </p>
           </div>
 
@@ -133,12 +135,16 @@ export default function EventsPage() {
                     {/* CAPTION / DETAILS */}
                     <figcaption className="p-7">
                       <div className="flex items-center justify-between gap-2 mb-3">
-                        <span className={`inline-block rounded-md border-2 border-[#090D16] px-3 py-1 text-[11px] font-black uppercase ${accent.bgHighlight}`}>
+                        <span
+                          className={`inline-block rounded-md border-2 border-[#090D16] px-3 py-1 text-[11px] font-black uppercase ${accent.bgHighlight}`}
+                        >
                           {e.meta}
                         </span>
                       </div>
 
-                      <h3 className="text-xl font-black text-white">{e.title}</h3>
+                      <h3 className="text-xl font-black text-white">
+                        {e.title}
+                      </h3>
                       <p className="mt-2 text-xs font-bold leading-relaxed text-slate-300">
                         {e.note}
                       </p>
@@ -157,7 +163,8 @@ export default function EventsPage() {
               Ready to build with D4?
             </h2>
             <p className="mx-auto mt-4 max-w-md text-sm font-bold leading-relaxed text-slate-300 dark:text-slate-700">
-              Applications take about ten minutes. Pick your domain and show us what you want to work on.
+              Applications take about ten minutes. Pick your domain and show us
+              what you want to work on.
             </p>
 
             <Link
@@ -170,15 +177,16 @@ export default function EventsPage() {
 
             <div className="mt-8 flex flex-wrap items-center justify-center gap-6 font-mono text-xs font-black text-slate-300 dark:text-[#090D16]">
               <span className="flex items-center gap-1.5">
-                <CheckCircle2 size={16} className="text-[#06D6A0]" /> Zero Membership Fee
+                <CheckCircle2 size={16} className="text-[#06D6A0]" /> Zero
+                Membership Fee
               </span>
               <span className="flex items-center gap-1.5">
-                <HeartHandshake size={16} className="text-[#FF6B6B]" /> Non-Profit Community
+                <HeartHandshake size={16} className="text-[#FF6B6B]" />{" "}
+                Non-Profit Community
               </span>
             </div>
           </div>
         </section>
-
       </div>
     </div>
   );
