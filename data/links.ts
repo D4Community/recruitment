@@ -53,7 +53,7 @@ export const links: ExternalLink[] = [
   {
     label: "Volunteer Application",
     hint: "Apply for core execution team & domain leads",
-    href: "https://forms.gle/CY8eDostKx2t8Wx49",
+    href: "https://recruitment.d4community.com",
   },
   {
     label: "Email Support",
