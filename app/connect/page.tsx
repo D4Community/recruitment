@@ -199,7 +199,7 @@ export default function ConnectPage() {
         {/* CONNECT LINKS GRID */}
         <section className="py-12 border-t-2 border-slate-800">
           <div className="text-center">
-            <span className="rounded-lg border-2 border-[#090D16] bg-[#00B4DB] px-3.5 py-1 text-xs font-black uppercase text-[#090D16] shadow-[3px_3px_0px_0px_#FFFFFF]">
+            <span className="rounded-lg border-2 border-[#181818] dark:border-[#090D16] bg-[#00B4DB] px-3.5 py-1 text-xs font-black uppercase text-[#090D16] shadow-[3px_3px_0px_0px_#181818] dark:shadow-[3px_3px_0px_0px_#FFFFFF]">
               Official Outlets
             </span>
             <h2 className="mt-4 font-sans text-3xl font-black text-[#090D16] dark:text-white sm:text-5xl">
